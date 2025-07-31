@@ -7,6 +7,7 @@
   <remote name="nanopb" fetch="https://github.com/nanopb"/>
   <remote name="opensbi" fetch="https://github.com/riscv"/>
   <remote name="seL4" fetch="https://github.com/seL4"/>
+  <remote name="seL4Clement" fetch="https://github.com/cdsxz/"/>
   <remote name="seL4_custom" fetch="."/>
   <remote name="sel4proj" fetch="../sel4proj"/>
   
@@ -26,5 +27,5 @@
   <project name="sel4test.git" path="projects/sel4test" revision="b79839e65220e4650497ba2d873d454f25fd0d3b" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="1ba664001364c57599dfcda707adec16ee646bb5" upstream="master" dest-branch="master"/>
+  <project name="util_libs.git" path="projects/util_libs" remote="seL4Clement" revision="ls1043a" />
 </manifest>
