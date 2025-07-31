@@ -27,5 +27,5 @@
   <project name="sel4test.git" path="projects/sel4test" revision="b79839e65220e4650497ba2d873d454f25fd0d3b" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" remote="seL4Clement" revision="ls1043a" />
+  <project name="util_libs.git" path="projects/util_libs" remote="seL4Clement" revision="ls1043" />
 </manifest>
